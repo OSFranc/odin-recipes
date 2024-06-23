@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(240, 188, 93, 0.555);
+}
+
+.centrado{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#frank{
+    width: 200px;
+    height: auto;
+}
+
+.imgPlatillos{
+    height: 500px;
+    width: auto;
+}
+
+ul,
+ol{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+button{
+font-size: large;  background-color: rgba(240, 173, 49, 0.555);
+border: rgba(248, 163, 5, 0.555);
+border-radius: 10%;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;}

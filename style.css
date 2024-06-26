@@ -1,48 +1,158 @@
-body{
-    background-color: rgba(240, 188, 93, 0.555);
+/*Paleta de Colores
+#053F5C Prussian Blue
+#429EBD Boston Blue
+#9FE7F4 Blizzard Blue
+#F7AD19 Dark Tangerine
+#F27F0C Tangerine */
+
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.centrado{
-    display: block;
+body{
+    margin: 0px;
+    background-color: #053F5C;
+}
+
+#TituloPrincipal{
+    font-size: 50px;
+    background-color: #F7AD19;
+    padding: 25px;
+    border-top-left-radius: 25px;
+    text-align: center;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+#TituloPlatillo{
+    font-size: 50px;
+    background-color: #F7AD19;
+    padding: 25px;
+    border-radius: 25px;
     text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #frank{
-    width: 200px;
+    display: block;
+    width: 250px;
     height: auto;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: auto;
+    border-top-left-radius: 25px;
 }
 
-.imgPlatillos{
-    height: 500px;
-    width: auto;
+.imgplatillo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 
-ul,
-ol{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+#quote{
+    display: block;
+    color: rgba(255, 255, 255, 0.815);
+    font-style: italic;
+    text-align: right;
+    padding-right: 100px;
+
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
+#listadoRecetas{
+    background-color: #F27F0C;
+    padding: 20px;
+    padding-left: 100px;    
 }
 
-h1 {
-    font-weight: bolder;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+#listadoRecetas li{
+    list-style: none;
+    width: 200px;
+    padding: 10px;
+    background-color: #66b1ca;
+    margin: 5px;
+    border-right: 7px solid #053F5C;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.minibar{
+    display: flex;
+    background-color: #F27F0C;
+    list-style: none;
+}
+.minibar li{
+    display: flex;
+    box-sizing: content-box;
+    padding-left:50px;
+    padding-right: 50px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtPlatillos{
+    background-color: #429ebdce;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 30px;
+    margin-top: 33.5px;
+    margin-bottom: 33.5;
+    color: white;
+    font-size: 20px;
 }
 
 button{
-font-size: large;  background-color: rgba(240, 173, 49, 0.555);
-border: rgba(248, 163, 5, 0.555);
-border-radius: 10%;
-color: black;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;}
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    background-color: #429ebd;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.proceso{
+background-color: darksalmon;
+padding: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: right;
+border-top: 5px solid rgb(216, 89, 47);
+color: white;
+}
+
+.pasos ul,ol{
+    margin: 30px;
+    border-radius: 5px;
+    background-color: #429ebd;
+    padding: 50px;
+}
+
+.pasos li{
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+}
+
+.SubReceta{
+    background-color: #fcbd3f;
+    width: 125px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
